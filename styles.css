@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', monospace;
+    background-color: #111;
+    color: #fff;
+    margin-top: 30px;
+  }
+  
+  .results, .lives {
+    font-size: 24px;
+    margin: 5px;
+  }
+  
+  .grid {
+    width: 300px;
+    height: 300px;
+    border: solid #00ffcc 2px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px #00ffcc;
+    background-color: #222;
+    margin-top: 15px;
+  }
+  
+  .grid div {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .invader {
+    background-color: #9b59b6;
+    border-radius: 10px;
+    box-shadow: 0 0 6px #9b59b6;
+  }
+  
+  .shooter {
+    background-color: #2ecc71;
+    box-shadow: 0 0 6px #2ecc71;
+  }
+  
+  .laser {
+    background-color: #f39c12;
+    box-shadow: 0 0 5px #f39c12;
+  }
+  
+  .boom {
+    background-color: #e74c3c;
+    box-shadow: 0 0 8px #e74c3c;
+  }
+  
